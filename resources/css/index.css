@@ -1,0 +1,39 @@
+body {
+    background: #FFB6C1;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@media screen and (max-width: 480px)
+    #header {
+        border-bottom: 3px solid black;
+    }
+
+    #name-logo{
+        padding: 0 0 0 10px;
+    }
+
+    #nav {
+        position: absolute;
+        right: 0;
+        top: -15px;
+        height: 60px;
+    }
+
+    #nav ul li {
+        float: left;
+        list-style: none;
+    }
+
+    #nav ul li a {
+        display: block;
+        color: white;
+        font-size: 55px;
+        text-decoration: none;
+        padding: 20px 10px 0 10px;
+    }
+}
